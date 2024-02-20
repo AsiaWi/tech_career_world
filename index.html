@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+#circle {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+
+.flip-box {
+    background-color: transparent;
+}
+
+.flip-box-inner {
+    height:100%;
+    width:100%;
+    position: relative;
+    transition: 1.4s;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+/* vertical flip */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+    
+}
+
+/* front and back styling */
+.flip-box-front,
+.flip-box-back {
+  background-color: #000000;
+  border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    /*Safari*/
+    backface-visibility: hidden;
+    text-align: center;
+}
+
+/* front image sizing */
+.flip-box-front img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+}
+
+.flip-box-back {
+    background-color: rgba(216, 194, 177, 0.4);
+    transform: rotateY(180deg);
+}
+
+.flip-box-back p {
+    text-align: center;
+    font-size: 90%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#circle1 {
+  margin-top: -3.9%;
+  margin-left: 36.7%;
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+#small-circle{
+  margin-top: 13.5%;
+  margin-left: 22.2%;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+}#smallest-circle{
+  margin-top: 28%;
+  margin-left: 39%;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: #f00;
+  border-radius: 50%;
+}
+#new-circle{
+  margin-top: 30.6%;
+  margin-left: 21.3%;
+  position: absolute;
+  width: 5.5%;
+  height: 5.5%;
+  background-color: #FFD700;
+  border-radius: 50%;
+}
+#new-circle1{
+  margin-top: 1%;
+  margin-left: 24.3%;
+  position: absolute;
+  width: 12.5%;
+  height: 12.5%;
+  background-color: #FF00FF;
+  border-radius: 50%;
+}
+#new-circle2{
+  margin-top: 25%;
+  margin-left: 3.8%;
+  position: absolute;
+  width: 17.5%;
+  height: 17.5%;
+  background-color: #228B22;
+  border-radius: 50%;
+}
+#new-circle3{
+  margin-top: 33.6%;
+  margin-left: 19.9%;
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  background-color: #0e0e0e;
+  border-radius: 50%;
+}
+#new-circle4{
+  margin-top: 40.2%;
+  margin-left: 0%;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background-color: #eb2929;
+  border-radius: 50%;
+}
+#new-circle5{
+  margin-top: 20.6%;
+  margin-left: 47.2%;
+  position: absolute;
+  width: 12.5%;
+  height: 12.5%;
+  background-color: #FF00FF;
+  border-radius: 50%;
+}
+#new-circle6{
+  margin-top: 33%;
+  margin-left: 46%;
+  position: absolute;
+  width: 17.5%;
+  height: 17.5%;
+  background-color: #228B22;
+  border-radius: 50%;
+}
+
+      </style>
+</head>
+<body>
+  <div id="container">
+    <div class="flip-box" id="circle">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="assets/images/UI.UX.png"
+            alt="UI UX ">
+        </div>
+        <div class="flip-box-back">
+          <h2>UI/UX Design</h2>
+          <p>Cosy blankets, sweaters and wooly socks is all you need. Lighting some candles will make you feel even more
+            cosy. You decide what makes you feel good! Remember, it's not about going to Ikea to get the candle, but
+            appreciating the twinkly light and being mindful is what counts. It's about feeling content in a safe place,
+            whilst it's raining outside, rather than feeling blue because it's raining.</p>
+        </div>
+      </div>
+    </div>
+
+      <div id="smallest-circle">
+        <!-- red centre -->
+        </div>
+      
+        <div id="new-circle">
+          <!-- yellow -->
+          </div>
+
+      <div id="new-circle1">
+        <!-- pink top -->
+        </div>
+
+      <div id="new-circle2">
+        <!-- green left -->
+        </div>
+        
+        <div id="circle1">
+          <!-- black top -->
+        </div>
+        
+          <div id="small-circle">
+            <!-- light centre -->
+            </div>
+            
+          <div id="new-circle6">
+            <!-- green bottom -->
+            </div>
+            
+          <div id="new-circle5">
+            <!-- pink centre -->
+            </div>
+
+          <div id="new-circle4">
+            <!-- red left corner -->
+            </div>
+
+          <div id="new-circle3">
+            <!-- black bottom -->
+            </div>
+  </div>
+  
+
+</body>
+</html>
