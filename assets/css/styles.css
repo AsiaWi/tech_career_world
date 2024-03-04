@@ -70,43 +70,44 @@
 .container_style {
     border-radius: 20px;
     margin: 10px;
-    background-color: #fff2f2;
     padding: 5px;
 }
 
 .container_style_image img {
     border: purple 5px solid;
-}
-
-.container_style_image img {
     border-radius: 20px;
     width: 100%;
 }
 
-.container_style_question1 {
+.container_style_question1,
+.container_style_question5 {
     border: rgb(218, 10, 45) 5px solid;
+    background-color: rgba(218, 10, 45, 0.2);
     height: 95%;
 }
 
 .container_style_question2 {
     border: rgb(230, 195, 1) 5px solid;
+    background-color: rgba(230, 195, 1, 0.2) ;
+    height: 95%;
 }
 
 .container_style_question3 {
     border: rgb(66, 124, 66) 5px solid;
+    background-color: rgba(66, 124, 66, 0.2);
+    height: 95%;
 }
 
 .container_style_question4 {
     border: rgb(0, 0, 255) 5px solid;
-}
-
-.container_style_question5 {
-    border: rgb(218, 10, 45) 5px solid;
+    background-color: rgba(0, 0, 255, 0.2);
+    height: 95%;
 }
 
 .container_style_question6 {
     border: purple 5px solid;
-
+    background-color: rgba(128, 0, 128, 0.2);
+    height: 95%;
 }
 
 span {
