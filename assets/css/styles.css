@@ -112,3 +112,12 @@
 span {
     font-weight: bold;
 }
+
+.flip-box-front h2 {
+    position: absolute;
+    z-index: 99;
+    color: purple;
+    top: 8%;
+    background-color: peachpuff;
+    border-radius: 8px 0 0 0;
+}
